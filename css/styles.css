@@ -30,9 +30,9 @@ body {
 
 .background {
   background-image: url(../images/drawers.jpg);
-  background-size: 353px 283px;
+  background-size: 353px 285px;
   background-repeat: no-repeat;
-  height: 282px;
+  height: 284.5px;
   width: 287px;
   border-radius: 10px 0 0 10px;
 }
@@ -43,6 +43,7 @@ h2 {
   line-height: 28px;
   letter-spacing: 0.011em;
   width: 348px;
+  color: var(--Very-Dark-Grayish-Blue);
 }
 .article-info {
   padding: 33px 57px 32px 40px;
@@ -54,6 +55,7 @@ h2 {
   letter-spacing: 0.028em;
   width: 348px;
   margin: 12px 0 20px 0;
+  color: var(--Desaturated-Dark-Blue);
 }
 
 .card-bottom {
@@ -73,6 +75,50 @@ h2 {
 .user-datos {
   display: flex;
   flex-direction: column;
+  gap: 3px;
+  margin-left: 16px;
+}
+.name {
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.031em;
+  color: var(--Very-Dark-Grayish-Blue);
+}
+.date {
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0.031em;
+  color: var(--Desaturated-Dark-Blue);
+}
+
+.icon-share {
+  padding: 9px 8px 10px 9px;
+  background-color: var(--Light-Grayish-Blue);
+  border-radius: 16px;
+}
+.share-absolute {
+  display: none;
+  position: absolute;
+  top: 49%;
+  right: 17%;
+  /* display: flex; */
+  align-items: center;
+  gap: 22px;
+  padding: 18px 37px;
+  border-radius: 10px;
+  background-color: var(--Very-Dark-Grayish-Blue);
+}
+h3 {
+  font-size: 12.5px;
+  letter-spacing: 0.416em;
+  text-transform: uppercase;
+  color: var(--Light-Grayish-Blue);
+}
+.icons {
+  height: 20px;
+}
+.twitter {
+  margin: 0 16px;
 }
 
 @media screen and (max-width: 770px) {
