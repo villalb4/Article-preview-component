@@ -47,6 +47,7 @@ h2 {
 }
 .article-info {
   padding: 33px 57px 32px 40px;
+  transition: 1s;
 }
 .article-description {
   font-size: 12.5px;
@@ -71,6 +72,7 @@ h2 {
   width: 40px;
   height: 40px;
   border-radius: 88px;
+  cursor: pointer;
 }
 .user-datos {
   display: flex;
@@ -83,6 +85,7 @@ h2 {
   font-weight: 700;
   letter-spacing: 0.031em;
   color: var(--Very-Dark-Grayish-Blue);
+  cursor: pointer;
 }
 .date {
   font-size: 12.5px;
@@ -95,6 +98,7 @@ h2 {
   padding: 9px 8px 10px 9px;
   background-color: var(--Light-Grayish-Blue);
   border-radius: 16px;
+  cursor: pointer;
 }
 .share-absolute {
   display: none;
@@ -126,11 +130,32 @@ h3 {
     transition: 1s;
   }
 
- body {
-   background-color: red;
- }
 
  .card {
    flex-direction: column;
+ }
+
+ .background {
+  background-image: url(../images/drawers.jpg);
+  background-size: 335px 225px;
+  background-repeat: no-repeat;
+  height: 202px;
+  width: 335px;
+  border-radius: 10px 10px 0 0;
+}
+
+ h2 {
+   font-size: 16.5px;
+   line-height: 144.1%;
+   letter-spacing: -0.004em;
+   width: 268px;
+ }
+ .article-info {
+  padding: 36px 35px 20px 32px;
+}
+ .article-description {
+   font-size: 12.5px;
+   line-height: 156.6%;
+   width: 260px;
  }
 }
